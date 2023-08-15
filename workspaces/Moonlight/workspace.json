@@ -2,7 +2,7 @@
     "friendly_name": "Moonlight",
     "image_src": "moonlight.png",
     "description": "Moonlight PC is an open source PC client for NVIDIA GameStream, as used by the NVIDIA Shield.",
-    "name": "registry.mdoni.de/donimax/moonlight-qt:ubuntudev",
+    "name": "registry.mdoni.de/donimax/moonlight-qt:dev",
     "cpu_allocation_method": "Inherit",
     "docker_registry": "https://registry.mdoni.de/",
     "categories": [
