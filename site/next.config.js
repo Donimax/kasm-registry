@@ -2,11 +2,11 @@
 
 const nextConfig = {
   env: {
-    name: 'Kasm Technologies',
-    description: 'The official store for Kasm supported workspaces.',
-    icon: '/img/logo.svg',
-    listUrl: 'https://registry.kasmweb.com/',
-    contactUrl: 'https://kasmweb.com/support',
+    name: 'Donimax Technologies',
+    description: 'Donimax registry for Kasm supported workspaces.',
+    icon: 'https://donimax.github.io/kasm-registry/1.0/site/public/donimax.svg',
+    listUrl: 'https://donimax.github.io/kasm-registry/',
+    contactUrl: 'https://github.com/Donimax/kasm-registry/issues',
   },
   reactStrictMode: true,
   swcMinify: true,

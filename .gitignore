@@ -1,6 +1,6 @@
 # build output
 dist
-public
+public/*
 .next
 target
 packages/next/wasm/@next
@@ -8,7 +8,6 @@ out
 site/public/icons
 site/public/list.json
 !site/public/logo.svg
-
 
 # dependencies
 node_modules
