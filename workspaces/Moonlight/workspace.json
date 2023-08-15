@@ -1,0 +1,32 @@
+{
+    "friendly_name": "Moonlight",
+    "image_src": "moonlight.png",
+    "description": "Moonlight PC is an open source PC client for NVIDIA GameStream, as used by the NVIDIA Shield.",
+    "name": "registry.mdoni.de/donimax/moonlight-qt:ubuntudev",
+    "cpu_allocation_method": "Inherit",
+    "docker_registry": "https://registry.mdoni.de/",
+    "categories": [
+        "Games",
+        "Remote Access"
+    ],
+    "require_gpu": false,
+    "enabled": true,
+    "image_type": "Container",
+    "run_config": {
+      "security_opt": [
+        "seccomp=unconfined"
+      ],
+      "entrypoint": [
+        "/kasminit"
+      ],
+      "user": 1000
+    },
+    "exec_config": {},
+    "architecture": [
+      "amd64"
+    ],
+    "compatibility": [
+      "1.13.x"
+    ],
+    "uncompressed_size_mb": 1960
+  }
