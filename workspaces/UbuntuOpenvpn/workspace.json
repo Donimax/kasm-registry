@@ -1,0 +1,28 @@
+{
+    "description": "Ubuntu with the Openvpn environment.",
+    "docker_registry": "https://registry.mdoni.de/",
+    "image_src": "/img/thumbnails/ubuntu.png",
+    "name": "registry.mdoni.de/kasm/ubuntu-desktop-openvpn:dev",
+    "run_config": {
+     "hostname": "kasm",
+      "devices": [
+        "dev/net/tun",
+        "/dev/net/tun"
+      ],
+      "user": "root",
+      "privileged": true
+    },
+    "exec_config": {},
+    "categories": [
+      "Desktop"
+    ],
+    "friendly_name": "Ubuntu-desktop-openvpn",
+    "architecture": [
+      "amd64"
+    ],
+    "compatibility": [
+      "1.13.x",
+      "1.14.x"
+    ],
+    "uncompressed_size_mb": 1630
+  }
