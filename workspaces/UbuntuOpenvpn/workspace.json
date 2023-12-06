@@ -1,7 +1,7 @@
 {
     "description": "Ubuntu with the Openvpn environment.",
     "docker_registry": "https://registry.mdoni.de/",
-    "image_src": "/img/thumbnails/ubuntu.png",
+    "image_src": "ubuntu.png",
     "name": "registry.mdoni.de/kasm/ubuntu-desktop-openvpn:dev",
     "run_config": {
      "hostname": "kasm",
