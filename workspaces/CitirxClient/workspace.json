@@ -1,0 +1,26 @@
+{
+    "friendly_name": "Citrix Workspace client",
+    "image_src": "citrix.png",
+    "description": "Citrix workspace client",
+    "name": "registry.mdoni.de/donimax/citrix-client-kasmvnc:latest",
+    "cpu_allocation_method": "Inherit",
+    "docker_registry": "https://registry.mdoni.de/",
+    "categories": [
+        "Remote Access"
+    ],
+    "require_gpu": false,
+    "enabled": true,
+    "image_type": "Container",
+    "run_config": {
+      "user": 1000
+    },
+    "exec_config": {},
+    "architecture": [
+      "amd64"
+    ],
+    "compatibility": [
+     "1.13.x",
+     "1.14.x"
+    ],
+    "uncompressed_size_mb": 1960
+  }
