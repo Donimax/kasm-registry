@@ -23,7 +23,7 @@
     "compatibility": [
       {
         "version": "1.16.x",
-        "image": "registry.mdoni.de/donimax/rustdesk-kasmvnc:latest",
+        "image": "registry.mdoni.de/donimax/kasm-custom/rustdesk-kasmvnc:latest",
         "uncompressed_size_mb": 1960
       }
     ]
