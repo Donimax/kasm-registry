@@ -2,7 +2,6 @@
     "friendly_name": "Citrix Workspace client",
     "image_src": "citrix.png",
     "description": "Citrix workspace client",
-    "name": "registry.mdoni.de/donimax/kasm-custom/citrix-client-kasmvnc:latest",
     "cpu_allocation_method": "Inherit",
     "docker_registry": "https://registry.mdoni.de/",
     "categories": [
@@ -19,10 +18,10 @@
       "amd64"
     ],
     "compatibility": [
-      "1.13.x",
-      "1.14.x",
-      "1.15.x",
-      "1.16.x"
-    ],
-    "uncompressed_size_mb": 1960
+      {
+        "version": "1.16.x",
+        "image": "registry.mdoni.de/donimax/kasm-custom/citrix-client-kasmvnc:latest",
+        "uncompressed_size_mb": 1960
+      }
+    ]
   }
