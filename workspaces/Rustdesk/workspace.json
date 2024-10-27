@@ -12,9 +12,6 @@
     "enabled": true,
     "image_type": "Container",
     "run_config": {
-      "entrypoint": [
-        "/kasminit"
-      ],
       "user": 1000
     },
     "exec_config": {},
