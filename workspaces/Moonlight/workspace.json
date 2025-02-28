@@ -12,13 +12,9 @@
     "enabled": true,
     "image_type": "Container",
     "run_config": {
-      "security_opt": [
-        "seccomp=unconfined"
-      ],
-      "entrypoint": [
-        "/kasminit"
-      ],
-      "user": 1000
+      
+      "hostname": "kasm"
+
     },
     "exec_config": {},
     "architecture": [
