@@ -1,0 +1,41 @@
+{
+    "friendly_name": "Moonlight Intel GPU",
+    "image_src": "moonlight.png",
+    "description": "Moonlight PC is an open source PC client for NVIDIA GameStream or Sunshine",
+    "cpu_allocation_method": "Inherit",
+    "docker_registry": "https://registry.mdoni.de/",
+    "categories": [
+        "Games",
+        "Remote Access"
+    ],
+    "require_gpu": false,
+    "enabled": true,
+    "image_type": "Container",
+    "run_config": {
+      
+      "hostname": "kasm",
+      "environment": {
+        "HW3D": true,
+        "DRINODE": "/dev/dri/renderD129"
+      },
+      "security_opt": [
+        "seccomp=unconfined"
+      ],
+      "devices": [
+        "/dev/dri/card1:/dev/dri/card1:rwm",
+        "/dev/dri/renderD129:/dev/dri/renderD129:rwm"
+      ]
+    },
+    "exec_config": {},
+    "architecture": [
+      "amd64"
+    ],
+    "compatibility": [
+      {
+        "version": "1.16.x",
+        "image": "registry.mdoni.de/donimax/kasm-custom/moonlight-qt:latest",
+        "uncompressed_size_mb": 1960
+      }
+    ]
+  }
+
