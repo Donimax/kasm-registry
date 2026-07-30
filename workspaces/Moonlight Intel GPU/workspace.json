@@ -45,6 +45,11 @@
         "version": "1.18.x",
         "image": "registry.mdoni.de/donimax/kasm-custom/moonlight-qt:latest",
         "uncompressed_size_mb": 1960
+      },
+      {
+        "version": "1.19.x",
+        "image": "registry.mdoni.de/donimax/kasm-custom/moonlight-qt:latest",
+        "uncompressed_size_mb": 1960
       }
     ]
   }
